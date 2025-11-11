@@ -90,8 +90,7 @@ export default function TodoList() {
         <section className="h-screen flex items-center justify-center bg-gray-100 text-black">
             <div className="bg-white p-8 rounded shadow-md w-full max-w-md flex flex-col justify-center">
                 <h2 className="text-2xl font-bold mb-6 text-center">Todo List</h2>
-                <p>Login: admin@gmail.com</p>
-                <p>password: admin111</p>
+         
                 {/* 🔹 Додати нове завдання */}
                 <Formik
                     initialValues={{ text: '' }}
